@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mksistemas.micorsservico.autenticacao.api:
+    image: ${DOCKER_REGISTRY}mksistemasmicrosservicoautenticacaoapi
+    build:
+      context: .
+      dockerfile: MKSistemas.MicrosServico.Autenticacao.Api/Dockerfile

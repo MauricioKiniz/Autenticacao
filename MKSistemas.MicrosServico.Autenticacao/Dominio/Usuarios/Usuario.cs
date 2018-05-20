@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MKSistemas.MicrosServico.Autenticacao.Dominio
+namespace MKSistemas.MicrosServico.Autenticacao.Dominio.Usuarios
 {
     public class Usuario
     {
@@ -20,10 +20,17 @@ namespace MKSistemas.MicrosServico.Autenticacao.Dominio
             Senha = novaSenha;
         }
 
+        public bool Autenticado()
+        {
+            return true;
+        }
+
         public static Usuario Create(Guid id, string nome, string senha)
         {
-            Usuario usuario = new Usuario(id, nome);
-            usuario.Senha = senha;
+            Usuario usuario = new Usuario(id, nome)
+            {
+                Senha = senha
+            };
 
             return usuario;
         }

@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autenticacao", "Autenticaca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKSistemas.MicrosServico.Autenticacao", "MKSistemas.MicrosServico.Autenticacao\MKSistemas.MicrosServico.Autenticacao.csproj", "{687A74BE-6224-4820-89AC-37A0809A9166}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{01EC1FFD-18C1-468F-BC19-FE963115D3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKSistemas.MicrosServico.Autenticacao.Api", "MKSistemas.MicrosServico.Autenticacao.Api\MKSistemas.MicrosServico.Autenticacao.Api.csproj", "{319A227A-DE90-4568-94C3-2015FFA7BB2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{687A74BE-6224-4820-89AC-37A0809A9166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687A74BE-6224-4820-89AC-37A0809A9166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687A74BE-6224-4820-89AC-37A0809A9166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EC1FFD-18C1-468F-BC19-FE963115D3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EC1FFD-18C1-468F-BC19-FE963115D3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EC1FFD-18C1-468F-BC19-FE963115D3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EC1FFD-18C1-468F-BC19-FE963115D3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319A227A-DE90-4568-94C3-2015FFA7BB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A227A-DE90-4568-94C3-2015FFA7BB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319A227A-DE90-4568-94C3-2015FFA7BB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319A227A-DE90-4568-94C3-2015FFA7BB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{762FEAAA-6E7D-4FDB-8DE0-DDF810932398} = {4EE6F4BB-E558-4124-BD66-AA6B17619EBA}
 		{687A74BE-6224-4820-89AC-37A0809A9166} = {762FEAAA-6E7D-4FDB-8DE0-DDF810932398}
+		{319A227A-DE90-4568-94C3-2015FFA7BB2F} = {762FEAAA-6E7D-4FDB-8DE0-DDF810932398}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CABF41FC-BBE5-4B2B-ABE0-56CCC888CF12}
